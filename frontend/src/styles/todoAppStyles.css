@@ -1,0 +1,60 @@
+/* Todo App CSS document */
+
+/* styling for main container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling for login container */
+.login-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* styling for addTask block */
+.addTask-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* styling for input in addTask block */
+.addTask-block>input {
+    margin-right: 5px;
+}
+
+/* styling for todo container */
+.todo-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* styling for card text in addTask block */
+.addTask-block>.card-text {
+    margin-right: 5px;
+    width: 72%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+/* styling for editTask block */
+.editTask-block {
+    width: 100%;
+}
